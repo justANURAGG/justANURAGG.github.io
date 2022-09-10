@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: 	#141d26;
+   
+}
+
+.text{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141d26;
+    
+}
+.logo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+.text{
+    color:#fff;
+    
+}
+
+.mainbody{
+    margin-top: 20%;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+
+
