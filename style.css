@@ -5,48 +5,59 @@ body {
     padding: 20px;
   }
   
-  h1 {
+  nav {
     text-align: center;
-    margin-bottom: 30px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    color: #fff;
+    padding-bottom: 20px;
   }
   
-  .thumbnail-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .thumbnail {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    background-color: #222;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    justify-content: center;
   }
   
-  .thumbnail img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
+  nav li {
+    margin-right: 20px;
   }
   
-  .thumbnail .caption {
-    padding: 20px;
-  }
-  
-  .thumbnail h3 {
-    margin-top: 0;
-    font-size: 20px;
+  nav a {
+    text-decoration: none;
     color: #fff;
+    font-size: 18px;
+    font-weight: bold;
   }
   
-  .thumbnail p {
-    margin-bottom: 0;
-    color: #ccc;
-    font-weight: normal;
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Subtracting the height of the navbar */
+  }
+  
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 33vw;
+  }
+  
+  .name-role {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .name-role h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  
+  .name-role p {
+    font-size: 24px;
+    margin: 0;
   }
   
